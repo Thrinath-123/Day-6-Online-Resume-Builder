@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 25px; 
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#preview {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+#preview h3 {
+    margin-top: 0;
+}
+#preview p, #preview div {
+    margin-bottom: 10px;
+}

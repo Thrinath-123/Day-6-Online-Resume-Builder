@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    top:0;
+    opacity: 0.85;
+}
+img{
+    float:right;
+    width: 130px;
+    height: 150px;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: silver;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+header h1 {
+    margin: 0;
+   
+}
+
+header p {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}

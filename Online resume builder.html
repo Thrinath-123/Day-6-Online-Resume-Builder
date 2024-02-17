@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume Builder</title>
+    <link rel="stylesheet" href="./Online resume builder.css">
+</head>
+<body>
+    <div class="container">
+        <h1><u>Online Resume Builder</u></h1>
+        <form id="resumeForm">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="contact">Gmail :</label>
+            <input type="text" id="contact" name="contact" required>
+            <label for="bio">Carrer Objective</label>
+            <textarea id="bio" name="bio" rows="4" required></textarea>
+            <h2>Skills</h2>
+            <div id="skills">
+                <input type="text" id="skill1" name="skill[]" required>
+            </div>
+            <button type="button" id="addSkill">Add Skill</button>
+   
+            <h2>Education</h2>
+            <div id="education">
+                <div class="education">
+                    <label for="degree1">Degree/Inter/Tenth :</label>
+                    <input type="text" id="degree1" name="degree[]" required>
+                    <label for="institution1">Institution :</label>
+                    <input type="text" id="institution1" name="institution[]" required>
+                    <label for="dateRange1">Year Of Passing :</label>
+                    <input type="text" id="dateRange1" name="dateRange[]" required>
+                </div>
+            </div>
+            <button type="button" id="addEducation">Add Education</button>
+            <h2>Minor Project</h2>
+            <div id="skills">
+                <label for="description1">Description :</label>
+                    <textarea id="description1" name="description[]" rows="4" required></textarea>
+            </div>
+            <button type="button" id="addSkill">Add project</button>
+            <h2>Certifications</h2>
+            <div id="skills">
+                <label for="description1">Description :</label>
+                    <textarea id="description1" name="description[]" rows="4" required></textarea>
+            </div>
+            <button type="button" id="addSkill">Add project</button>
+            
+            <h2>Personal Information</h2>
+            <div id="workExperience">
+                <div class="workExperience">
+                    <label for="jobTitle1">Name :</label>
+                    <input type="text" id="jobTitle1" name="jobTitle[]" required>
+                    <label for="company1">Dob :</label>
+                    <input type="datetime-local">
+                    <label for="description1">Hobbies :</label>
+                    <textarea id="description1" name="description[]" rows="2" required></textarea>
+                    <button type="button" id="addSkill">Add</button>
+                    <div id="skills">
+                        <label for="description1">Address :</label>
+                            <textarea id="description1" name="description[]" rows="4" required></textarea>
+                    </div>
+                </div>
+            </div>
+           <button class="button">
+                <a href="./orb.html">Download</a>
+              </button>
+        </form>
+    </div>
+</body>
+</html>
